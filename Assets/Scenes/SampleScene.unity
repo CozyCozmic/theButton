@@ -217,6 +217,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &298164788
 MonoBehaviour:
@@ -651,14 +652,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -1237,6 +1238,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1484127805
 MeshFilter:
@@ -1343,6 +1345,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 796030192869983523, guid: e206c79991c342c4c93207ce3defff5c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1085959753795465089, guid: e206c79991c342c4c93207ce3defff5c, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1359,6 +1365,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1249965010}
+    - target: {fileID: 2785452849290287030, guid: e206c79991c342c4c93207ce3defff5c, type: 3}
+      propertyPath: m_SpotAngle
+      value: 36.6494
+      objectReference: {fileID: 0}
+    - target: {fileID: 2785452849290287030, guid: e206c79991c342c4c93207ce3defff5c, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048463954857553690, guid: e206c79991c342c4c93207ce3defff5c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4076485768249596669, guid: e206c79991c342c4c93207ce3defff5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.36716
